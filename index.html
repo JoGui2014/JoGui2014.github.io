@@ -3372,12 +3372,13 @@ th.highlighted-column {
   
   <h2>Legend: Metrics</h2>
     <ul>
-      <li>Metric 1: \( \sqrt{(SJR_p + 1)^2 + \sum (SJR_i + 1)^2 } \)</li>
-      <li>Metric 2: \( \sqrt[3]{(SJR_p + 1)^2 + \sum (SJR_i + 1)^3 } \)</li>
-      <li>Metric 3: \( \sqrt[2]{(H Index_p + 1)^2 \sum (H Index_i + 1)^2 } \)</li>
-      <li>Metric 4: \( \sqrt[2]{(JIF_p + 1)^2 \sum (JIF_i + 1)^2 } \)</li>
-      <li>Metric 5: \( \sqrt[3]{(JIF_p + 1)^2 \sum (JIF_i + 1)^3 } \)</li
+      <li>Metric 1: \( \sqrt{\lambda(SJR_p + 1)^2 + \sum (SJR_i + 1)^2 } \)</li>
+      <li>Metric 2: \( \sqrt[3]{\lambda(SJR_p + 1)^2 + \sum (SJR_i + 1)^3 } \)</li>
+      <li>Metric 3: \( \sqrt[2]{\lambda(H Index_p + 1)^2 \sum (H Index_i + 1)^2 } \)</li>
+      <li>Metric 4: \( \sqrt[2]{\lambda(JIF_p + 1)^2 \sum (JIF_i + 1)^2 } \)</li>
+      <li>Metric 5: \( \sqrt[3]{\lambda(JIF_p + 1)^2 \sum (JIF_i + 1)^3 } \)</li>
     </ul>
+    <p>\( \lambda \) is a weighting factor that can be adjusted based on the importance of the publication. Currently \( \lambda \) is set to 1.</p>
   <div class=""></div></div></div></div></div></div>
 
         <footer>
